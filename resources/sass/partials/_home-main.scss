@@ -1,0 +1,27 @@
+/* HOME MAIN */
+.movies{
+    max-width: 1300px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    .card{
+        width: calc(20% - 20px);
+        height: 250px;
+        margin: 10px;
+        padding: 15px;
+        background-color: rgba(53, 11, 37, .5);
+        border-radius: 10px;
+        box-shadow: 0 20px 10px -10px rgba(0, 0, 0, .5);
+
+        .title,
+        .original-title{
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .info{
+            margin: 0.5rem 0;
+        }
+    }
+}

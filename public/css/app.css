@@ -1,0 +1,51 @@
+/********** APP MAIN STYLE **********/
+
+/* GENERAL */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  color: #ddd;
+  background-color: rgba(65, 1, 40, 0.76);
+}
+
+.main-header {
+  padding: 10px;
+  background-color: #350b25;
+  text-align: center;
+}
+
+/* HOME MAIN */
+
+.movies {
+  max-width: 1300px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movies .card {
+  width: calc(20% - 20px);
+  height: 250px;
+  margin: 10px;
+  padding: 15px;
+  background-color: rgba(53, 11, 37, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 20px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.movies .card .title,
+.movies .card .original-title {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.movies .card .info {
+  margin: 0.5rem 0;
+}
+
